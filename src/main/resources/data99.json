@@ -1,0 +1,65 @@
+{
+  "name": "usa",
+  "type": "country",
+  "priority": 10,
+  "children": [
+    {
+      "name": "california",
+      "type": "region",
+      "priority": 1,
+      "children": [
+        {
+          "name": "los_angeles",
+          "type": "city",
+          "priority": 3,
+          "children": [
+            {
+              "name": "western_avenue",
+              "type": "street",
+              "priority": 4,
+              "children": [
+                {
+                  "name": "55",
+                  "type": "house",
+                  "priority": 9,
+                  "children": []
+                },
+                {
+                  "name": "59",
+                  "type": "house",
+                  "priority": 7,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "western_avenue",
+          "type": "district",
+          "priority": 2,
+          "children": [
+            {
+              "name": "los_angeles",
+              "type": "city",
+              "priority": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "los_angeles",
+      "type": "city",
+      "priority": 5,
+      "children": []
+    },
+    {
+      "name": "san_francisco",
+      "type": "city",
+      "priority": 5,
+      "children": []
+    }
+  ]
+}

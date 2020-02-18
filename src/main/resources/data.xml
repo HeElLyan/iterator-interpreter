@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="usa" priority="10">
+    <region name="california" priority="1">
+        <city name="los_angeles" priority="3">
+            <street name="western_avenue" priority="4">
+                <house name="55" priority="9"/>
+                <house name="59" priority="7"/>
+            </street>
+        </city>
+        <district name="western_avenue" priority="2">
+            <city name="los_angeles" priority="2"/>
+        </district>
+    </region>
+    <city name="los_angeles" priority="5"/>
+    <city name="san_francisco" priority="5"/>
+</country>
